@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [":dependencyDashboard"],
+  pep723: {
+    fileMatch: [
+      "scripts/invalid_toml\\.py",
+      "scripts/one_invalid_dep\\.py",
+      "scripts/valid_pep723\\.py",
+    ]
+  }
+}
